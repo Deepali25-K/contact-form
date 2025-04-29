@@ -1,35 +1,29 @@
 
-
 function App() {
   return(
     <>
-    Contact Us
+    <form className="m-[10px]">
+      <h1 className="text-red-500">Contact Us</h1>
+      <div>
+        <label htmlFor="first-name">First Name</label>
+        <input id="first-name" type="text" name="first-name" aria-label="first name"/>
+      </div>
 
-First Name
-This field is required
+      <div>
+        <label htmlFor="last-name">Last Name</label>
+        <input id="last-name" type="text" name="last-name" aria-label="last name"/>
+      </div>
 
-Last Name
-This field is required
+      <div>
+        <label htmlFor="email">Email Address</label>
+        <input id="email" type="email" name="email" aria-label="email"/>
+      </div>
 
-Email Address
-Please enter a valid email address
-This field is required
+      <button type="submit">Submit</button>
+    </form>
 
-Query Type
-General Enquiry
-Support Request
-Please select a query type
-
-Message
-This field is required
-
-I consent to being contacted by the team
-To submit this form, please consent to being contacted
-
-Submit
-
-Message Sent!
-Thanks for completing the form. We'll be in touch soon!
+{/* Message Sent!
+Thanks for completing the form. We'll be in touch soon! */}
     </>
     
   );

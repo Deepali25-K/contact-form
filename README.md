@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](/react-contact-form/design/mobile-design.jpg)
-![Desktop](/react-contact-form/design/desktop-design.jpg)
+![Mobile](/design/mobile-design.jpg)
+![Desktop](/design/desktop-design.jpg)
 
 ### Links
 
